@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "更好的混动条",
+    "version": "0.1.0",
+    "description": "更改大部分网站默认的滚动条",
+    "default_locale": "zh_CN",
+    "icons": {
+        "128": "img/logo.png"
+    },
+    "content_scripts": [
+        {
+            "css": [
+                "css/BetterScrollber.css"
+            ],
+            "matches": [
+                "<all_urls>"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "author": [
+        {
+            "name": "iceriny",
+            "url": "https://github.com/iceriny"
+        }
+    ]
+}
