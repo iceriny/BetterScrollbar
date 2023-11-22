@@ -10,7 +10,7 @@
     "content_scripts": [
         {
             "css": [
-                "css/BetterScrollber.css"
+                "css/BetterScrollbar.css"
             ],
             "matches": [
                 "<all_urls>"

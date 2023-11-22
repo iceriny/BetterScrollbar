@@ -1,0 +1,10 @@
+{
+    "package_name": "BetterScrollbar",
+    "description": "更改大部分网站默认的滚动条。",
+    "changelog": [
+      {
+        "description": "基本功能完成",
+        "version": "0.1.0"
+      }
+    ]
+}
